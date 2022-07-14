@@ -35,13 +35,7 @@ while( youshi > aurora){
   console.log("i love tomie");
   aurora++
  }
- 
- 
- 
  //function
-
-
-
 
 function eidShoping( aurora , youshi){
     var total = aurora + youshi;
@@ -49,9 +43,6 @@ function eidShoping( aurora , youshi){
 }
 
 eidShoping(300,4500)
-
-
-
 
 function christmasShoping(){
 
@@ -76,10 +67,7 @@ var a = doll(5)
 var b = doll(15)
 console.log(a + b)
 
-
-
 //object
-
 
 var mySelf = {name:"youshi",address:"ctg port", brother:"aurora",class:10};
 console.log(mySelf.address)
@@ -89,9 +77,6 @@ var num3 = mySelf["brother"]
 var num4 = mySelf["name"]
 console.log(num3)
 console.log(num1)
-
-
-
 
 
 function About(name,Class,address,like){
@@ -116,10 +101,6 @@ function AboutAurora(name,like,life,hobby){
  var objt = new AboutAurora("Aurora","Esha","youshi","reading")
  console.log(objt)
 
-
-
-
- 
 function About(name,Class,address,like){
     this.name = name;
     this.Class = Class;
@@ -158,9 +139,6 @@ obj.allInfo()
 
  console.log(myDate.setMinutes())
 
-
-
-
  //simple math
 
  
@@ -183,8 +161,6 @@ console.log(sum)
 
 console.log(mathNumber)
 var mathNumber = Math.random() * 100;
-
-
 
  var a = 7;
 var b = 5;
